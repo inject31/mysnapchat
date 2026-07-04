@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🔴 LIVE NOW</title>
+
+<meta property="og:title" content="💋 HOT & Trending 🔥 👁️ 1.1M ❤️ 136K">
+<meta property="og:description" content="Join The Private Stream">
+<meta property="og:image" content="thumbnail.jpg">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="favicon.ico">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+overflow:hidden;
+background:#000;
+}
+
+#bg-video{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-2;
+}
+
+.overlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.55);
+backdrop-filter:blur(3px);
+z-index:-1;
+}
+
+.container{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.card{
+width:100%;
+max-width:460px;
+padding:30px;
+border-radius:30px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.1);
+box-shadow:0 0 40px rgba(255,0,80,.3);
+text-align:center;
+animation:fadeIn .8s ease;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.avatar{
+width:130px;
+height:130px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid rgba(255,255,255,.25);
+box-shadow:0 0 30px rgba(255,0,80,.6);
+}
+
+.live{
+font-size:30px;
+font-weight:700;
+color:#fff;
+margin-top:15px;
+}
+
+.subtitle{
+color:#ddd;
+margin-top:8px;
+margin-bottom:20px;
+}
+
+.online{
+display:inline-block;
+padding:8px 14px;
+border-radius:20px;
+background:#16a34a;
+color:white;
+font-size:13px;
+margin-bottom:20px;
+}
+
+.btn{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+text-decoration:none;
+padding:16px;
+margin-bottom:12px;
+border-radius:15px;
+font-weight:700;
+transition:.3s;
+color:white;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.instagram{
+background:linear-gradient(45deg,#833AB4,#FD1D1D,#FCAF45);
+}
+
+.tiktok{
+background:#000;
+}
+
+.snapchat{
+background:#FFFC00;
+color:#000;
+}
+
+.telegram{
+background:#229ED9;
+}
+
+.vip{
+background:linear-gradient(45deg,#ff0055,#7c3aed);
+}
+
+.counter{
+margin-top:20px;
+color:#fff;
+font-size:14px;
+}
+
+.footer{
+margin-top:15px;
+font-size:12px;
+color:#bbb;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<video autoplay muted loop playsinline id="bg-video">
+<source src="bg.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+<div class="card">
+
+<img src="avatar.jpg" class="avatar">
+
+<div class="live">🔴 LIVE NOW</div>
+
+<div class="subtitle">
+Join The Private Stream
+</div>
+
+<div class="online">
+🟢 Online Now
+</div>
+
+<a class="btn whatsapp"
+href="https://wa.me/6281234567890"><i class="fab fa-whatsapp"></i>
+WhatsApp </a>
+
+<a class="btn instagram"
+href="https://insightdailyhubb.com/SB75uR1ooRkxD7Y6"> <i class="fab fa-instagram"></i>
+Instagram </a>
+
+<a class="btn tiktok"
+href="https://unseenstory.biz.id/S6KVLB2dOGG22gzC"> <i class="fab fa-tiktok"></i>
+TikTok </a>
+
+<a class="btn snapchat"
+href="https://insightdailyhubb.com/PNuBRoJF4rvWQFf1"> <i class="fab fa-snapchat"></i>
+Snapchat </a>
+
+<a class="btn telegram"
+href="https://linkovvatee.com/tjjXkbNeBs7QAtMq"> <i class="fab fa-telegram"></i>
+Telegram </a>
+
+<a class="btn vip"
+href="https://unseenstory.biz.id/vWR5PjCcGHJ2mlEc">
+🔥 VIP ACCESS </a>
+
+<div class="counter">
+👀 <span id="viewers">1245</span> Watching Now
+</div>
+
+<div class="footer">
+© BY-SICKTEAM
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+let viewers =
+Math.floor(Math.random()*300)+1100;
+
+document.getElementById("viewers")
+.innerText=viewers;
+
+</script>
+
+</body>
+</html>
